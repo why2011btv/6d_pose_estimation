@@ -1,5 +1,6 @@
-## This repository is the source code of our paper:
-## "[Estimating 6D Pose From Localizing Designated Surface Keypoints](https://arxiv.org/abs/1812.01387)".
+#[Estimating 6D Pose From Localizing Designated Surface Keypoints](https://arxiv.org/abs/1812.01387)"
+
+## This is an implementation of our paper Estimating 6D Pose From Localizing Designated Surface Keypoints (https://arxiv.org/abs/1812.01387)" on Python 3.6 and Pytorch 0.4.0. We present an accurate yet effective solution for 6D pose estimation from an RGB image. The core of our approach is to first designate a set of surface points on target object model as keypoints and then train a keypoint detector (KPD) to localize them. A PnP algorithm following can recover the 6D pose according to the 2D-3D relationship of keypoints. Different from recent state-of-the-art CNN-based approaches that rely on atime-consuming post-processing procedure, our method can achieve competitive accuracy without any refinement after pose prediction. Meanwhile, we obtain a 30% relative improvement in terms of ADD accuracy among methods without using refinement. We also succeed in handling heavy occlusion by selecting the most confident keypoints to recover the 6D pose.
 
 Great thanks to @Haoshu Fang!
 
@@ -8,7 +9,7 @@ Great thanks to @Haoshu Fang!
 ## How to train?
 ### 1. Train yolo. 
 Get cfg and weights and change Line 292, 293 of dataloader.py to locate them.  
-### 2. Train SOPE(single object pose estimation)
+### 2. Train SOPE (single object pose estimation)
 Note every time you run train.py you should change the options/paths correctly. Run train_sppe/src/train.py to train. Check the meaning of options in train_sppe/opt.py.
 
 (1) Train on synthetic data without DPG. Change paths to train/validation dataset on Line 19/21 of train_sppe/src/utils/dataset/coco.py. The number of total training images is over 10000. The training command should look like:
