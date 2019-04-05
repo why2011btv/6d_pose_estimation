@@ -39,4 +39,4 @@ Run run_demo.sh is okay. Read the comments in betapose_evaluate.py to have a bet
 - Folders SPPE and doc are inherited from Alphapose, ignore them temporarily.
 - Add "CUDA_VISIBLE_DEVICES=[GPU IDS]" before training command to specify available GPUs. For example,
 
-	CUDA_VISIBLE_DEVICES=1,3 python3 src/train.py --trainBatch 32 --expID line_dpg_001 --optMethod adam --momentum 0.9 --loadModel /media/data_1/home/zelin/betapose/exp/coco/line_nodpg_001/model_8.pkl --addDPG
+		CUDA_VISIBLE_DEVICES=1,3 python3 src/train.py --trainBatch 32 --expID line_dpg_001 --optMethod adam --momentum 0.9 --loadModel /media/data_1/home/zelin/betapose/exp/coco/line_nodpg_001/model_8.pkl --addDPG
