@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1,3 python3 src/train.py --trainBatch 32 --expID 102905 --optMethod adam --momentum 0.9 --loadModel /media/data_1/home/zelin/betapose/exp/coco/102904/model_11.pkl --addDPG

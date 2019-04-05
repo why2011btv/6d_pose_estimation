@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python3 betapose_evaluate.py --indir /media/data_2/SIXD/hinterstoisser/test/01/rgb --outdir examples/line_seq1 --sp --profile
