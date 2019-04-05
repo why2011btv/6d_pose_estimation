@@ -1,5 +1,4 @@
 ## This repository is the source code of our paper:
-
 ## "[Estimating 6D Pose From Localizing Designated Surface Keypoints](https://arxiv.org/abs/1812.01387)".
 
 Great thanks to @Haoshu Fang!
