@@ -1,4 +1,4 @@
-This folder includes PyTorch code for training the Single Person Pose Estimation network in AlphaPose.
+# This folder includes PyTorch code for training the Single Person Pose Estimation network in AlphaPose.
 
 ## Installation
 1. Install PyTorch >= 0.4.0 following [official instruction](https://pytorch.org/get-started/locally/).
