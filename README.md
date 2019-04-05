@@ -1,5 +1,7 @@
-Betapose README
-Greatly thanks to @Haoshu Fang.
+This repository is the source code of our paper "[Estimating 6D Pose From Localizing Designated Surface Keypoints](https://arxiv.org/abs/1812.01387)".
+
+Great thanks to @Haoshu Fang!
+
 All the following instructions are based on the assumption that you're in the root directory of Betapose. Please read this README thoroughly before you run the codes to ensure you're clear with what the meaning of the commands and not make mistakes.
 *******************************************************************************
 Chapter 1: How to train?
